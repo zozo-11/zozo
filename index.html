@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caisse McDonald's</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Caisse McDonald's</h1>
+    <button id="toggle-admin" onclick="toggleAdmin()">Admin</button>
+    <div id="menu"></div>
+
+    <div id="admin-panel" class="hidden">
+        <h2>Panneau d'administration</h2>
+        <div>
+            <input type="text" id="new-item-name" placeholder="Nom de l'article">
+            <input type="number" step="0.01" id="new-item-price" placeholder="Prix">
+            <button onclick="addMenuItem()">Ajouter</button>
+        </div>
+        <ul id="admin-menu-list"></ul>
+    </div>
+
+    <h2>Commande</h2>
+    <ul id="order-list"></ul>
+    <p id="total">Total : 0€</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

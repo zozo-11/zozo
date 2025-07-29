@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #fffbe6;
+}
+
+h1 {
+    color: #da291c;
+}
+
+#menu button {
+    margin: 5px;
+    padding: 10px;
+    background: #ffc72c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#menu button:hover {
+    background: #ffad1f;
+}
+
+#order-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#admin-panel {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+#admin-panel input {
+    margin-right: 5px;
+}
+
+#admin-menu-list button {
+    margin-left: 10px;
+    background: #da291c;
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    cursor: pointer;
+}
